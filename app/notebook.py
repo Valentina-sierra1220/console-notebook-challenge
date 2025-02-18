@@ -8,7 +8,7 @@ class Note:
 
 
 
-def __init__(self,code:str,title:str,text:str,importance:str)
+def __init__(self,code:str,title:str,text:str,importance:str):
         self.code = code
         self.title = title
         self.text = text
@@ -20,7 +20,7 @@ class Notebook:
     def __init__(self):
         self.notes: List[Note] = []
 
-    def add_note(self,title: str,text:str, importance:str): -> int:
+    def add_note(self,title: str,text:str, importance:str) -> int:
 
         new_code = len(self.notes) + 1
 
@@ -29,6 +29,7 @@ class Notebook:
         return new_note
 
 #menu
+def mostrar_menu():
 print("1.agregar nota")
 print("2.listar notas")
 print("3.agregar etiqueta a nota")
