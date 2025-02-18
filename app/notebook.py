@@ -6,3 +6,13 @@ class Note:
         MEDIUM:str = "MEDIUM"
         LOW:str = "LOW"
 
+
+
+def __init__(self,code:str,title:str,text:str,importance:str)
+        self.code = code
+        self.title = title
+        self.text = text
+        self.importance = importance
+        self.date = datetime.now()
+
+
