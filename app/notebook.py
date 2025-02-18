@@ -24,7 +24,7 @@ class Notebook:
 
         new_code = len(self.notes) + 1
 
-
+        self.notes.append(new_note)
 
 #menu
 print("1.agregar nota")
