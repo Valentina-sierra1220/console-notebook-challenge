@@ -26,6 +26,15 @@ class Notebook:
 
 
 
+#menu
+print("1.agregar nota")
+print("2.listar notas")
+print("3.agregar etiqueta a nota")
+print("4.Listar notas importantes")
+print("5.Eliminar nota")
+print("6.Mostrar notas por etiqueta")
+print("7.Mostrar etiqueta con más notas")
+print("8.Salir")
 
 
 
