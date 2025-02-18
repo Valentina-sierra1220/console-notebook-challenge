@@ -20,11 +20,13 @@ class Notebook:
     def __init__(self):
         self.notes: List[Note] = []
 
-    def add_note(self,title: str,text:str, importance:str): -> int
+    def add_note(self,title: str,text:str, importance:str): -> int:
 
         new_code = len(self.notes) + 1
 
         self.notes.append(new_note)
+
+        return new_note
 
 #menu
 print("1.agregar nota")
