@@ -16,3 +16,21 @@ def __init__(self,code:str,title:str,text:str,importance:str)
         self.date = datetime.now()
 
 
+class Notebook:
+    def __init__(self):
+        self.notes: List[Note] = []
+
+    def add_note(self,title: str,text:str, importance:str): -> int
+
+        new_code = len(self.notes) + 1
+
+
+
+
+
+
+
+
+
+
+
